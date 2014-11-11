@@ -1,0 +1,74 @@
+$=============================================================================
+
+!! this is a comment      (preceded by a blank line)
+%  this is also a comment
+ # this is also a comment (followed by a blank line)
+
+#   [      ]  -  vector
+#  [[      ]] -  2D matrix
+#   <      >  -  indep list to sweep over
+#   )*n }*n   -  repeat this line n times (makes the n independents part of a depend)
+#   )^n }^n   -  repeat this line n times (makes the n independents part of a depend)
+#   ..& &..   -  continue line
+#   ! # $ %   -  comments
+#   {} <> \/  -  sets
+#   '' "" ``  -  sets
+#             -  typed out list of varibles
+#     | |     -  init | inc | numVals 
+#   &{ @{ m_( -  something
+#   $( $< $[  -  special utility (i.e. making targets)
+
+$=============================================================================
+
+
+
+#		4
+# check @alpha at begining of tlasin, end of it, between two vectors, 
+#		on either side of vectors, etc...
+
+
+#tlasin   	[     
+#				4
+#				5
+#				6
+#				{ 8.4e-9    , 8.6e-9     , 2 }
+#				{ 8.4e-9    , 8.6e-9     , 2 }
+#
+#				.22
+#			]
+
+@theTA 2 
+
+@beta  3 2 1 
+
+#ncycrs [ {2 , @alpha , 1}]
+
+@{by candlelight} 1
+
+@kappa 1
+
+@aLphA 1 | 2 | 3
+
+tlasin   	[
+< 1 : 1 : 2 >
+@{kappa}
+				#
+				1
+				2
+				
+				@BETA
+				@theTA
+				5
+				6
+
+				@{by candlelight}
+								
+				{@<alpha+alpha+theta+alpha+alpha>,8.6e-9, @ceil(theta)}
+				{ @floor(theta),@< (8.6e-9 + 1)+7 >,@ceil(theta)}
+
+< 1 : 1 : 2 >
+66
+77
+88
+99
+]

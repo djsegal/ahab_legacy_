@@ -1,0 +1,57 @@
+
+#  testing jacobian 
+
+!=============================================================================
+
+# ---------------------------------------------------
+#  comments have to be the first characters in lines
+# ---------------------------------------------------
+#
+# this is      a comment  (#)    
+! this is also a comment  (!)
+
+#   [      ]  -  vector
+#  [[      ]] -  2D matrix
+#   <      >  -  indep list to sweep over
+#   )*n }*n   -  repeat this line n times (makes the n independents part of a depend)
+#   )^n }^n   -  repeat this line n times (makes the n independents part of a depend)
+#   ..& &..   -  continue line
+#   ! # $ %   -  comments
+#   {} <> \/  -  sets			//    <> is indep set
+#   '' "" ``  -  sets
+#             -  typed out list of varibles
+#     | |     -  init | inc | numVals 
+#   &{ @{ m_( -  something
+#   $( $< $[  -  special utility (i.e. making targets)
+
+!=============================================================================
+
+
+
+# -------------------------------
+#  @T0 gets mapped to @t0 anyway
+# -------------------------------
+
+@t0 ! look mah , no hands	
+
+	1e-2   ;   1e+2   ;   3
+
+# --------------------------------------
+#  init ; final ; numVals  //   ( log )
+# --------------------------------------
+
+@tDeltaFrac
+
+	100   ;   1000     ;   2
+
+# ----------------------------
+#  init | increment | numVals
+# ----------------------------
+
+tn2c =  [ ( @t0  |  @"t0/tdeltafrac"	 |250 ) ]
+te2c  [( @t0  |  @"t0/tdeltafrac"	 |250 )]
+tr2c =  [( @t0  |  @"t0/tdeltafrac"	 |250 )]
+
+#tn2c = 110*1.0,       140*1.0, 
+#te2c = 110*1.0,       140*1.0,
+#tr2c = 110*1.0,       140*1.0,

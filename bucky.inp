@@ -1,0 +1,34 @@
+ 
+ $rstart
+
+    mstart = 0
+    ncycrs = 0
+
+ $end
+
+
+ $input
+
+    ! ==========
+    !  censored  
+    ! ==========
+
+    iorest = 10000000
+
+    nmax   = 1.0e+4
+    tmax   = 1.0e-8
+
+    dtb    = 1.e-19
+    ta     = 0.
+    dtmax  = 1.e-4
+    tgrow  = 1.2
+
+    nfg = 100              ! # energy frequency groups
+    nfdout = 100000
+
+    !tn2c = 110*1.0,       140*1.0,    !  variables
+    !te2c = 110*1.0,       140*1.0,    !  that are 
+    !tr2c = 110*1.0,       140*1.0,    !  swept over
+    
+ $end
+

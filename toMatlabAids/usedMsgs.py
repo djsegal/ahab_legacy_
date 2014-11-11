@@ -1,0 +1,83 @@
+# ===========================
+#  messaged used by toMatlab
+# ===========================
+
+inputRequest    =  '  type here :  '
+
+introMsg        =  '                                                   \n'
+introMsg       +=  '================================================== \n'
+introMsg       +=  '  Welcome to the Python-to-Matlab AHAB Converter   \n'
+introMsg       +=  '================================================== \n'
+
+preDirMsg       =  '                                                   \n'
+preDirMsg      +=  '-------------------------------------------------- \n'
+preDirMsg      +=  '        Please Select Directories to Scour:        \n'
+preDirMsg      +=  '-------------------------------------------------- \n'
+preDirMsg      +=  '                                                   \n'
+
+dirMsg          =  'Which indices do you want to scour?                \n'
+
+inpErr1A        =  '                                                   \n'
+inpErr1A       +=  '************************************************** \n'
+inpErr1A       +=  '                                                   \n'
+inpErr1A       +=  '  There was a problem with :    '
+
+inpErr1B        =  '                                                   \n'
+inpErr1B       +=  '                                                   \n'
+inpErr1B       +=  '  An example of a correct syntax is :              \n'
+inpErr1B       +=  '                                                   \n'
+inpErr1B       +=  '                1:3 , 5 , 10 : 12                  \n'
+inpErr1B       +=  '             ( if there are >= 12 dirs )           \n'
+inpErr1B       +=  '                                                   \n'
+inpErr1B       +=  '      press "enter" to repeat directory list.      \n'
+inpErr1B       +=  '                                                   \n'
+inpErr1B       +=  '************************************************** \n'
+inpErr1B       +=  '                                                   \n'
+
+varMsg          =  '                                                   \n'
+varMsg         +=  '-------------------------------------------------- \n'
+varMsg         +=  '         Please Input Variables to Hunt :          \n'
+varMsg         +=  '       Enter an Empty String when Finished         \n'
+varMsg         +=  '-------------------------------------------------- \n'
+
+continueMsg1A   =  '                                                   \n'
+continueMsg1A  +=  '================================================== \n'
+continueMsg1A  +=  '                                                   \n'
+continueMsg1A  +=  '     Here are the Directories you want Scoured     \n'
+continueMsg1A  +=  '        and the Variables you want Hunted:         \n'
+continueMsg1A  +=  '                                                   \n'
+continueMsg1A  +=  '-------------------------------------------------- \n'
+
+continueMsg1B   =  '-------------------------------------------------- \n'
+continueMsg1B  +=  '                                                   \n'
+continueMsg1B  +=  '  If this is correct :        type  "y"            \n'
+continueMsg1B  +=  '                                                   \n'
+continueMsg1B  +=  '  Otherwise :  to add a directory  ,  type  "a"    \n'
+continueMsg1B  +=  '               to rem a directory  ,  type  "s"    \n'
+continueMsg1B  +=  '               to add a variable   ,  type  "d"    \n'
+continueMsg1B  +=  '               to rem a variable   ,  type  "f"    \n'
+continueMsg1B  +=  '                                                   \n'
+continueMsg1B  +=  '  you can cancel any of these by pressing "enter"  \n'
+continueMsg1B  +=  '                                                   \n'
+continueMsg1B  +=  '================================================== \n'
+
+continueMsg2    =  '                                                   \n'
+continueMsg2   +=  '-------------------------------------------------- \n'
+continueMsg2   +=  '                                                   \n'
+continueMsg2   +=  '        You did not enter a valid command.         \n'
+continueMsg2   +=  '                                                   \n'
+continueMsg2   +=  '  If the above data is correct :      type  "y"    \n'
+continueMsg2   +=  '                                                   \n'
+continueMsg2   +=  '  Otherwise :  to add a directory  ,  type  "a"    \n'
+continueMsg2   +=  '               to rem a directory  ,  type  "s"    \n'
+continueMsg2   +=  '               to add a variable   ,  type  "d"    \n'
+continueMsg2   +=  '               to rem a variable   ,  type  "f"    \n'
+continueMsg2   +=  '                                                   \n'
+continueMsg2   +=  '  you can cancel any of these by pressing "enter"  \n'
+continueMsg2   +=  '                                                   \n'
+continueMsg2   +=  '-------------------------------------------------- \n'
+
+verifyGoErr     =  '                                                   \n'
+verifyGoErr    +=  '************************************************** \n'
+verifyGoErr    +=  '                                                   \n'
+
