@@ -1,6 +1,8 @@
 ahab
 =============
 
+Automated High-throughput computing Achieved with Batch procesing
+
 for documentation, see:
 
   + [wiki](https://github.com/djsegal/ahab/wiki)
